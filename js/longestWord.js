@@ -1,5 +1,4 @@
-//Write a JavaScript function that accepts a string
-// as a parameter and finds the longest word within the string.
+//Write a JavaScript function that accepts a string as a parameter and finds the longest word within the string.
 
 let longest = (str) => {
     let strArray = str.split(" ");
@@ -16,4 +15,4 @@ let longest = (str) => {
 
 let str = prompt("Enter a string to determine the longest word")
 let longestWord =`The longest word is "${longest(str)}"  with ${longest(str).length} characters `
-console.log(longestWord);
+alert(longestWord);

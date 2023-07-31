@@ -1,3 +1,5 @@
+//Write a function to check if a number is prime or not
+
 function checkPrime(num) {
     let isPrime = true;
     
@@ -15,5 +17,4 @@ function checkPrime(num) {
 }
 
 let num = Number(prompt("Enter a number to check if it's a prime number or not"))
-
 alert(checkPrime(num));
